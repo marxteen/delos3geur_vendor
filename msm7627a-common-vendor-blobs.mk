@@ -16,6 +16,9 @@
 
 # Decodres/Encoders
 
+#PRODUCT_COPY_FILES +=    vendor/samsung/delos3geur/proprietary/lib/libsurfaceflinger.so:system/lib/libsurfaceflinger.so
+#PRODUCT_COPY_FILES +=    vendor/samsung/delos3geur/proprietary/lib/librtp_jni.so:system/lib/librtp_jni.so
+#PRODUCT_COPY_FILES +=    vendor/samsung/delos3geur/proprietary/lib/libqdutils.so:system/lib/libqdutils.so 
 PRODUCT_COPY_FILES +=    vendor/samsung/delos3geur/proprietary/lib/libOmxWmaDec.so:system/lib/libOmxWmaDec.so 
 PRODUCT_COPY_FILES +=    vendor/samsung/delos3geur/proprietary/lib/libOmxAdpcmDec.so:system/lib/libOmxAdpcmDec.so 
 PRODUCT_COPY_FILES +=    vendor/samsung/delos3geur/proprietary/lib/libOmxAmrwbDec.so:system/lib/libOmxAmrwbDec.so 
